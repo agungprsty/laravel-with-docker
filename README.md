@@ -55,6 +55,5 @@ http://localhost
 - Base image
   - [rabbitmq](https://hub.docker.com/_/rabbitmq):latest
 
----
 ## Thanks and Inspired by:
-<a href="https://github.com/ucan-lab" style="color: red;font-size:1.2rem">@ucan-lab<a>
+> [@ucan-lab](https://github.com/ucan-lab)
