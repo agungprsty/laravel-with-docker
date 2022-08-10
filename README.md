@@ -8,6 +8,10 @@
 
 Build a simple laravel application development environment with docker-compose.
 
+
+## Requirement
+- Docker ^19.*
+
 ## Usage
 
 1. Click [Use this template](https://github.com/agungprsty/laravel-with-docker/generate)
