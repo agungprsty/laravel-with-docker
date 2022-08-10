@@ -1,0 +1,11 @@
+# Editor
+.vscode
+
+# Docker file
+/docker/mysql/*
+/docker/redis/*
+/docker/rabbitmq/data/*
+/docker/rabbitmq/log/*
+
+# Application
+/src
