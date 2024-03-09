@@ -3,7 +3,7 @@ version: "3.9"
 networks:
   laravel:
     name: laravel
-    
+
 services:
   app:
     container_name: laravel-app
@@ -16,7 +16,7 @@ services:
       - mysql
     networks:
       - laravel
-  
+
   mysql:
     container_name: laravel-mysql
     image: mysql:8.0
@@ -32,7 +32,7 @@ services:
       - "3306:3306"
     networks:
       - laravel
-      
+
   web:
     container_name: laravel-web
     image: nginx:stable-alpine
@@ -69,11 +69,11 @@ services:
   #     - ./docker/redis:/data
   #   ports:
   #     - "6380:6379"
-  #   environment:      
+  #   environment:
   #     - TZ=Asian/Jakarta
   #   networks:
   #     - laravel
-  
+
   # rabbitmq:
   #   container_name: laravel-rabbitmq
   #   image: rabbitmq:3-management-alpine
