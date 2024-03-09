@@ -42,7 +42,7 @@ DB_USERNAME=admin
 DB_PASSWORD=admin
 ```
 5. Try to access the services in your browser
-   - Laravel app (http://localhost:80)
-   - phpMyAdmin (http://localhost:81)
+   - Laravel app (http://localhost:8110)
+   - phpMyAdmin (http://localhost:8101)
 
 #### Thanks and Inspired by: [@ucan-lab](https://github.com/ucan-lab)
