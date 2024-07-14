@@ -42,7 +42,30 @@ DB_USERNAME=admin
 DB_PASSWORD=admin
 ```
 5. Try to access the services in your browser
-   - Laravel app (http://localhost:8110)
-   - phpMyAdmin (http://localhost:8101)
+   - Laravel App: http://localhost:8110
+   - phpMyAdmin: http://localhost:81012
 
-#### Thanks and Inspired by: [@ucan-lab](https://github.com/ucan-lab)
+
+Tentu, berikut adalah versi singkat dalam bahasa Inggris:
+
+---
+
+## Join Our Project
+
+Hi everyone!
+
+We're excited to announce our new open-source project: **Laravel + Docker Template**. This template aims to make it easy to set up a Laravel application with full Docker support.
+
+### Why Join?
+- **Easy Setup**: Get your Laravel app running with just a few steps.
+- **Organized Structure**: Follow best practices to keep your code clean.
+- **Community Support**: Join a dedicated community to share knowledge and help each other.
+
+We need contributions in code, documentation, testing, and ideas. Interested? Check out our repository: https://github.com/agungprsty/laravel-with-docker.
+
+Thank you for your support!
+
+Best,
+Prasetyo Agung
+
+---

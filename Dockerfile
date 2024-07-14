@@ -1,6 +1,6 @@
 # PHP-FPM is a FastCGI implementation for PHP.
 # Read more here: https://hub.docker.com/_/php
-FROM php:8.1-fpm
+FROM php:8.2-fpm
 
 # Install system dependencies
 RUN apt-get update && apt-get install -y \
@@ -18,15 +18,15 @@ RUN docker-php-ext-install pdo_mysql exif pcntl bcmath gd zip \
     &&  rm -rf /tmp/pear \
     &&  docker-php-ext-enable redis
 
-# Install NPM 
-RUN curl -fsSL https://deb.nodesource.com/setup_lts.x | bash - 
+# Install NPM
+RUN curl -fsSL https://deb.nodesource.com/setup_lts.x | bash -
 RUN apt-get install -y nodejs
 
 # Clear cache
 RUN apt-get clean && rm -rf /var/lib/apt/lists/*
 
 # Install Composer
-COPY --from=composer:2.3 /usr/bin/composer /usr/bin/composer
+COPY --from=composer:2.7 /usr/bin/composer /usr/bin/composer
 
 # Set working directory
 WORKDIR /var/www/html
