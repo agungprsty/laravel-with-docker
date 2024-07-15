@@ -12,7 +12,7 @@ Build a simple laravel application development environment with docker-compose.
 ## Requirement
 - Docker ^19.*
 
-## Available containers
+## Services
 - ``app`` used image:
   - [php](https://hub.docker.com/_/php):8.1-fpm
   - [composer](https://hub.docker.com/_/composer):2.3
@@ -41,12 +41,9 @@ DB_DATABASE=laravel
 DB_USERNAME=admin
 DB_PASSWORD=admin
 ```
-5. Try to access the services in your browser
+1. Done! Let's to try to access the services in your browser
    - Laravel App: http://localhost:8110
    - phpMyAdmin: http://localhost:81012
-
-
-Tentu, berikut adalah versi singkat dalam bahasa Inggris:
 
 ---
 
